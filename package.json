@@ -1,13 +1,13 @@
 {
   "name": "ml-sha",
   "version": "0.0.1",
-  "description": "",
+  "description": "The sha package for Microlattice.js",
   "main": "index.js",
   "supportIC":[ "mt7687" ],
   "src": ["./src/ml-sha.c"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "",
-  "license": "ISC"
+  "license": "Apache2"
 }
