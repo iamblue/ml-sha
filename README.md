@@ -4,7 +4,7 @@
 
 ``` js
 
-sha('string');
+__sha('string');
 
 ```
 
@@ -12,6 +12,6 @@ sha('string');
 
 ``` js
 
-print('sha:' + sha('abcdefghijklmnopqrstwxyz1234567'));
+print('sha:' + __sha('abcdefghijklmnopqrstwxyz1234567'));
 
 ```
