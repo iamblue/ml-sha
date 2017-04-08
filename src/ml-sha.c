@@ -32,7 +32,6 @@ DELCARE_HANDLER(__sha) {
       sprintf (buffer, "%02x", digest[i]);
       strcat(str_buffer, buffer);
     }
-    free(value_buffer);
   }
   return jerry_create_string(str_buffer);
 }
